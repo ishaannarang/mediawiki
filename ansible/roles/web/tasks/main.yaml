@@ -8,7 +8,7 @@
 - name: Install package with multiple repos enabled
   yum:
     name: "{{ packages_web }}"
-    enablerepo: "epel,remi-safe,remi,remi-php70"
+    enablerepo: "epel,remi-safe,remi,remi-php73"
 
 - name: check php version
   command: php -version && msql --version && httpd -version
