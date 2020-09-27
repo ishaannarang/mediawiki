@@ -1,10 +1,10 @@
 Install mediawiki using Terraform and Ansible
 
 Terraform Module does the following:
- 1 VPC
- 3 Subnets - 2 Web and 1 DB
- 3 EC2 Instances - 2 Web and 1 DB
- 1 Elastic Load Balancer
+   1 VPC
+   3 Subnets - 2 Web and 1 DB
+   3 EC2 Instances - 2 Web and 1 DB
+   1 Elastic Load Balancer
 
  Ansible Playbook performs the following:
     Dynamically fetches your resources based on the tags you defined in the terraform IaC.
@@ -16,14 +16,12 @@ Terraform Module does the following:
     Makes it ready for the Launch on the browser.
     
  Assumptions/pre-requisites:
-    Terraform and Ansible installed.
+   Terraform and Ansible installed.
     Have a pem file named "mediawiki_key.pem"
     If not, download the setup using the instructions in the link below: 
     https://learn.hashicorp.com/tutorials/terraform/install-cli
-    
-    
- 
- For Ansible:
+       
+ Install Ansible on Amazon Linux 2:
     sudo amazon-linux-extras install ansible2 -y
  
  Install Git:
