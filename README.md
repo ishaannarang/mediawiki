@@ -67,3 +67,4 @@ Terraform Module does the following:
   
   vault key: tw
  
+  Access Mediawiki using Load Balancer DNS name
