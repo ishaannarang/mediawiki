@@ -28,7 +28,6 @@
 - name: Create Wiki User and provide all permissions.
   mysql_user:
     name: "{{ wiki_db_user }}"
-    #password: "123456"
     password: "{{ WIKI_DB_PASSWORD }}"
     host:  '10.0.1.10'
     priv: '{{ db_name }}.*:ALL,GRANT'
