@@ -1,4 +1,4 @@
-Install mediawiki using Terraform and Ansible
+<h1>Install mediawiki using Terraform and Ansible</h1>
 
 Terraform Module does the following:
    1 VPC
