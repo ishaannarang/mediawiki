@@ -1,9 +1,4 @@
 # VPC Resources
-#  * VPC
-#  * Subnets (2 public, 1db subnet)
-#  * EC2 instances
-#  * Internet Gateway
-#  * Route Table
 
 
 ######
